@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.buttonPaper {
+		background-color: white;
+		box-shadow: 0px 0.5rem 0px hsl(230, 89%, 65%),
+			inset 0px 0.5rem 0px hsl(218, 13%, 72%);
+	}
+
+	.buttonPaper:hover img {
+		transform: scale(1.015);
+	}
+
+	.buttonPaper:active {
+		box-shadow: inset 0px 0.5rem 10px 2px hsl(230, 89%, 65%),
+			0px 0.5rem 0px hsl(230, 89%, 65%),
+			0px 2px 0px 40px rgba(199, 198, 198, 0.185),
+			0px 2px 0px 80px rgba(199, 198, 198, 0.185),
+			0px 2px 0px 120px rgba(199, 198, 198, 0.185);
+	}
+
+	.buttonRock {
+		background-color: white;
+		box-shadow: 0px 0.5rem 0px hsl(349, 71%, 52%),
+			inset 0px 0.5rem 0px hsl(218, 13%, 72%);
+	}
+
+	.buttonRock:hover img {
+		transform: scale(1.015);
+	}
+
+	.buttonRock:active {
+		box-shadow: inset 0px 0.5rem 10px 2px hsl(349, 71%, 52%),
+			0px 0.5rem 0px hsl(349, 71%, 52%),
+			0px 2px 0px 40px rgba(199, 198, 198, 0.185),
+			0px 2px 0px 80px rgba(199, 198, 198, 0.185),
+			0px 2px 0px 120px rgba(199, 198, 198, 0.185);
+	}
+
+	.buttonScissors {
+		background-color: white;
+		box-shadow: 0px 0.5rem 0px hsl(39, 89%, 49%),
+			inset 0px 0.5rem 0px hsl(218, 13%, 72%);
+	}
+
+	.buttonScissors:hover img {
+		transform: scale(1.015);
+	}
+
+	.buttonScissors:active {
+		box-shadow: inset 0px 0.5rem 10px 2px hsl(39, 89%, 49%),
+			0px 0.5rem 0px hsl(39, 89%, 49%),
+			0px 2px 0px 40px rgba(199, 198, 198, 0.185),
+			0px 2px 0px 80px rgba(199, 198, 198, 0.185),
+			0px 2px 0px 120px rgba(199, 198, 198, 0.185);
+	}
+
+	.buttonLizard {
+		background-color: white;
+		box-shadow: 0px 0.5rem 0px hsl(261, 73%, 60%),
+			inset 0px 0.5rem 0px hsl(218, 13%, 72%);
+	}
+
+	.buttonLizard:hover img {
+		transform: scale(1.015);
+	}
+
+	.buttonLizard:active {
+		box-shadow: inset 0px 0.5rem 10px 2px hsl(261, 72%, 63%),
+			0px 0.5rem 0px hsl(261, 73%, 60%),
+			0px 2px 0px 40px rgba(199, 198, 198, 0.185),
+			0px 2px 0px 80px rgba(199, 198, 198, 0.185),
+			0px 2px 0px 120px rgba(199, 198, 198, 0.185);
+	}
+
+	.buttonSpock {
+		background-color: white;
+		box-shadow: 0px 0.5rem 0px hsl(189, 59%, 53%),
+			inset 0px 0.5rem 0px hsl(218, 13%, 72%);
+	}
+
+	.buttonSpock:hover img {
+		transform: scale(1.015);
+	}
+
+	.buttonSpock:active {
+		box-shadow: inset 0px 0.5rem 10px 2px hsl(189, 58%, 57%),
+			0px 0.5rem 0px hsl(189, 59%, 53%),
+			0px 2px 0px 40px rgba(199, 198, 198, 0.185),
+			0px 2px 0px 80px rgba(199, 198, 198, 0.185),
+			0px 2px 0px 120px rgba(199, 198, 198, 0.185);
+	}
+}
+
+/* 0px 2px 0px 80px rgba(199, 198, 198, 0.185),
+			0px 2px 0px 120px rgba(199, 198, 198, 0.185);
+ */
